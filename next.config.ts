@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: '*.catbox.moe' },
     ],
   },
+  // GitHub Pages deployment with subdirectory
+  basePath: '/sparkie-kids-academy',
+  trailingSlash: true,
   // Disable x-ray for faster initial load
   experimental: {
     optimizeCss: false,
