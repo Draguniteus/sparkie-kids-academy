@@ -1,0 +1,32 @@
+{
+  "..\\node_modules\\@react-three\\drei\\core\\VideoTexture.js -> hls.js": {
+    "id": null,
+    "files": []
+  },
+  "..\\node_modules\\@react-three\\drei\\web\\FaceLandmarker.js -> @mediapipe/tasks-vision": {
+    "id": null,
+    "files": []
+  },
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 5139,
+    "files": [
+      "static/chunks/139.7a5a8e93a21948c1.js"
+    ]
+  },
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 1646,
+    "files": [
+      "static/chunks/646.f342b7cffc01feb0.js"
+    ]
+  },
+  "app\\ocean\\page.tsx -> ./OceanScene": {
+    "id": 7433,
+    "files": [
+      "static/chunks/b536a0f1.ca93ca66ddf3651d.js",
+      "static/chunks/0f8af13e.de2d0ee876ec3186.js",
+      "static/chunks/51749ec1.74a759c2a8c21d14.js",
+      "static/chunks/725.a9b571f933686c5c.js",
+      "static/chunks/433.50a3bed56e1226aa.js"
+    ]
+  }
+}

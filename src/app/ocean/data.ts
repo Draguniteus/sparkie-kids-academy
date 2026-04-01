@@ -1,0 +1,41 @@
+export interface OceanCreature {
+  letter: string
+  animal: string
+  fact: string
+  emoji: string
+  imagePrompt: string
+}
+
+export const oceanCreatures: OceanCreature[] = [
+  { letter: 'A', animal: 'Seahorse', fact: 'Seahorses mate for life and travel holding tails as they swim!', emoji: '🐠', imagePrompt: 'A is for seahorse, tiny magical ocean horse with intricate coral pattern, bright orange yellow colors, childrens book illustration, friendly face' },
+  { letter: 'B', animal: 'Blue Whale', fact: 'Blue whales are the largest animals ever — even bigger than dinosaurs!', emoji: '🐋', imagePrompt: 'B is for blue whale, giant majestic blue whale with white spots, gentle smile, sparkling ocean water, childrens illustration, dreamy blue tones' },
+  { letter: 'C', animal: 'Clownfish', fact: 'Clownfish live inside sea anemones and never get stung — they are best friends!', emoji: '🐠', imagePrompt: 'C is for clownfish, cute orange and white striped clownfish, big eyes, swimming in ocean coral reef, childrens illustration, vibrant colors' },
+  { letter: 'D', animal: 'Dolphin', fact: 'Dolphins talk to each other using clicks and whistles — they have their own language!', emoji: '🐬', imagePrompt: 'D is for dolphin, happy smiling dolphin leaping out of sparkling water, sun shining, blue sky background, childrens illustration, cute and friendly' },
+  { letter: 'E', animal: 'Sea Eagle', fact: 'Sea eagles dive super fast to catch fish with their sharp talons!', emoji: '🦅', imagePrompt: 'E is for sea eagle, majestic white-bellied sea eagle with open wings, flying over ocean waves, childrens illustration, dramatic sky' },
+  { letter: 'F', animal: 'Fish', fact: 'There are more fish in the ocean than all the birds and mammals on Earth combined!', emoji: '🐟', imagePrompt: 'F is for fish, colorful tropical fish swimming in coral reef, bright blue and yellow stripes, childrens illustration, playful and cute' },
+  { letter: 'G', animal: 'Sea Turtle', fact: 'Sea turtles can hold their breath for hours while sleeping underwater!', emoji: '🐢', imagePrompt: 'G is for sea turtle, cute green sea turtle swimming gracefully underwater, beautiful ocean blue-green light rays, childrens illustration' },
+  { letter: 'H', animal: 'Hermit Crab', fact: 'Hermit crabs borrow empty shells from other animals to protect their soft bodies!', emoji: '🦀', imagePrompt: 'H is for hermit crab, adorable hermit crab with colorful shell, peeking out curiously, on sandy ocean floor, childrens illustration, cute big eyes' },
+  { letter: 'I', animal: 'Sea Jellyfish', fact: 'Jellyfish have no brain, no heart, and no blood — they are 95% water!', emoji: '🪼', imagePrompt: 'I is for sea jellyfish, beautiful glowing transparent jellyfish floating in deep ocean, bioluminescent pink purple, childrens illustration, magical underwater' },
+  { letter: 'J', animal: 'Jellyfish', fact: 'Some jellyfish can glow in the dark — they make their own light!', emoji: '🪼', imagePrompt: 'J is for jellyfish, cute cartoon jellyfish with big smile, glowing bright colors, underwater scene, childrens illustration, friendly and colorful' },
+  { letter: 'K', animal: 'Killer Whale', fact: 'Killer whales are actually the biggest members of the dolphin family!', emoji: '🐋', imagePrompt: 'K is for killer whale, adorable orca whale with big white eye patch, cute and friendly looking, splashing in ocean, childrens illustration' },
+  { letter: 'L', animal: 'Lobster', fact: 'Lobsters have blue blood and they can live to be over 100 years old!', emoji: '🦞', imagePrompt: 'L is for lobster, cute cartoon lobster with big claws, bright red color, underwater scene, childrens illustration, funny and friendly expression' },
+  { letter: 'M', animal: 'Manatee', fact: 'Manatees are also called sea cows because they eat only plants — they are so gentle!', emoji: '🐄', imagePrompt: 'M is for manatee, adorable gentle manatee swimming underwater with big soulful eyes, underwater plants around, childrens illustration, sweet and calm' },
+  { letter: 'N', animal: 'Nemo Fish', fact: 'Nemo is a clownfish just like in Finding Nemo — they live in anemones!', emoji: '🐠', imagePrompt: 'N is for nemo fish, cute orange and white clownfish with big eyes, underwater anemone home, colorful coral reef, childrens illustration' },
+  { letter: 'O', animal: 'Octopus', fact: 'Octopuses have three hearts and blue blood — and they are super smart!', emoji: '🐙', imagePrompt: 'O is for octopus, cute cartoon octopus with big round eyes and tentacles, colorful ocean background, childrens illustration, playful purple and pink' },
+  { letter: 'P', animal: 'Penguin', fact: 'Some penguins live in warm places like Africa and South America — not just cold Antarctica!', emoji: '🐧', imagePrompt: 'P is for penguin, cute cartoon penguin with orange feet, standing on iceberg, arms out wide, childrens illustration, friendly smile' },
+  { letter: 'Q', animal: 'Sea Quahog', fact: 'Some ocean quahogs can live for more than 500 years — they are the oldest animals!', emoji: '🐚', imagePrompt: 'Q is for sea quahog, beautiful purple and pink ocean quahog shell with perfect spiral, on sandy ocean floor, sparkly shell, childrens illustration' },
+  { letter: 'R', animal: 'Manta Ray', fact: 'Manta rays do underwater flips and they are harmless to humans — pure giants!', emoji: '🦈', imagePrompt: 'R is for manta ray, majestic giant manta ray with open wings, gliding through ocean water, gentle expression, childrens illustration, blue underwater light' },
+  { letter: 'S', animal: 'Shark', fact: 'Most sharks are harmless to humans — they are scared of us, not the other way around!', emoji: '🦈', imagePrompt: 'S is for shark, cute friendly cartoon shark with big smile, not scary at all, underwater scene, childrens illustration, adorable rather than scary' },
+  { letter: 'T', animal: 'Sea Turtle', fact: 'Baby sea turtles use moonlight to find the ocean after they hatch — nature is magic!', emoji: '🐢', imagePrompt: 'T is for sea turtle, cute sea turtle with shell pattern, swimming through coral reef, bubbles around, childrens illustration, bright underwater' },
+  { letter: 'U', animal: 'Sea Urchin', fact: 'Sea urchins have tiny teeth that all point inward — they look like a tiny mouth!', emoji: '🦔', imagePrompt: 'U is for sea urchin, cute round purple sea urchin with soft looking spines, on ocean rocks, childrens illustration, not spiky looking, adorable round ball' },
+  { letter: 'V', animal: 'Vampire Squid', fact: 'Vampire squid live in the deep dark ocean and glow with their own light!', emoji: '🦑', imagePrompt: 'V is for vampire squid, cute cartoon vampire squid with big eyes, glowing softly in dark deep ocean, purple and blue bioluminescence, childrens illustration' },
+  { letter: 'W', animal: 'Walrus', fact: 'Walruses can grow giant whiskers that help them feel for food on the ocean floor!', emoji: '🦭', imagePrompt: 'W is for walrus, cute cartoon walrus with big whiskers and tusks, flippers outstretched, on floating ice, childrens illustration, adorable chubby face' },
+  { letter: 'X', animal: 'X-ray Fish', fact: 'X-ray fish are see-through — you can see all their bones and heart inside!', emoji: '🐟', imagePrompt: 'X is for x-ray fish, magical transparent x-ray fish showing skeleton inside, glowing blue and silver, underwater scene, childrens illustration, amazing see-through fish' },
+  { letter: 'Y', animal: 'Yellow Tang', fact: 'Yellow tangs are bright yellow fish that help clean coral reefs — they are the helpers!', emoji: '🐠', imagePrompt: 'Y is for yellow tang, beautiful bright yellow tropical fish, swimming through blue ocean, coral reef background, childrens illustration, vibrant sunshine yellow' },
+  { letter: 'Z', animal: 'Zebra Fish', fact: 'Zebra fish are tiny striped fish that can regrow their own fins and even their hearts!', emoji: '🐟', imagePrompt: 'Z is for zebra fish, cute striped zebra danio fish, black and white stripes, swimming happily, childrens illustration, tiny and adorable, swimming in clean water' },
+]
+
+export function getPollinationsImageUrl(creature: OceanCreature, width = 400, height = 300): string {
+  const prompt = encodeURIComponent(creature.imagePrompt)
+  return `https://gen.pollinations.ai/image/${prompt}?width=${width}&height=${height}&nologo=true`
+}
